@@ -1,0 +1,29 @@
+
+
+
+#tblOrderItemsNew tbody tr th:nth-child(1) { width: 10%; text-align: center;}
+#tblOrderItemsNew tbody tr th:nth-child(2) { width: 60%; }
+#tblOrderItemsNew tbody tr th:nth-child(3) { width: 15%; text-align: right; }
+#tblOrderItemsNew tbody tr th:nth-child(4) { width: 15%; text-align: right; }
+
+
+.inputQty,
+.amount
+{
+    text-align: right;
+}
+
+input#totalAmount
+{
+    color: #000;
+}
+
+
+/* ajaxArea */
+
+#ajaxChangeToCategoryMessageResponse
+{
+    position: absolute;
+    bottom: 2px;
+    
+}

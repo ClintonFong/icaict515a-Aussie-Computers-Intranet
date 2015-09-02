@@ -1,0 +1,164 @@
+/* 
+	Main Containers
+*/	
+
+#main-panel
+{
+    margin: 0;
+    padding: 20px;
+    border: 0 1px 1px 1px solid #ccc;
+    height: 400px;
+}
+
+#cntSigninBox
+{
+    display: block;
+    margin-top: 50px;
+}
+
+#cntRegisterBox
+{
+    display: none; 
+}
+
+#legendSignin
+{
+    /* color: #D2F643;   */
+    /* color: #DC4100;  */
+    color: Green;
+    border-color: #FFf080;
+    text-align: left;
+    padding: 0.4em 0.5em;
+    
+/*    
+    background-image: -moz-linear-gradient(90deg, #64BA19 0%, #64BA19 100%);
+    background-image: -o-linear-gradient(90deg, #64BA19 0%, #125102 100%);
+    background-image: -webkit-linear-gradient(90deg, #64BA19 0%, #125102 100%);
+    background-image: linear-gradient(90deg, #64BA19 0%, #125102 100%);    
+*/    
+    
+    background-image: -moz-linear-gradient(90deg, #ffffff  0%, #FFE000 100%);
+    background-image: -o-linear-gradient(90deg, #ffffff  0%, #FFE000 100%);
+    background-image: -webkit-linear-gradient(90deg, #ffffff 0%, #FFE000 100%);
+    background-image: linear-gradient(90deg, #ffffff 0%, #F0A05C 100%);    
+ 
+}
+
+#fldsetSignin
+{
+    clear: right;
+    height: 158px;
+    width: 410px;
+    padding:  0.2em 0.5em;
+    border:  1px solid #FFf080;
+    margin: 10px 20px 15px 20px; 
+    float: right;  
+    text-align: right;
+    
+    background-color: rgb(0, 0, 0);                 /* Fallback for web browsers that don't support RGBa */
+    background-color: rgba(0, 0, 0, 0.2);           /* RGBa with 0.6 opacity */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);              /* For IE 5.5 - 7*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";       /* For IE 8*/      
+    
+}
+
+
+
+div#cntSigninDetails
+{
+    padding-top: 10px;
+    background-color: none;
+}
+
+div#cntSigninDetails input
+{
+    background-color: #DDF0CC;   
+}
+
+
+
+label
+{
+    font-size: 14px;
+    line-height: 28px;
+    color: #d2f643; /* #125102;  #B3DE37; */
+}
+
+
+input
+{
+    width: 250px;
+    height: 22px;
+}
+
+
+#btnSignin
+{ 
+  
+    width: 105px;
+    height: 29px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    
+    
+    
+    /* from JS Fiddle */    
+    color: #fff;
+    padding: 4px 8px 5px;
+    border: 1px solid #9fa3a7; 
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #64BA19;  /* #008fcf; */
+    box-shadow:
+        0 1px 0 rgba(0,0,0,.08),
+        inset 0 1px 2px rgba(255,255,255,.67),
+        inset 0 -1px 0 rgba(0,0,0,.14);
+    
+    background-image: -moz-linear-gradient(90deg, #64BA19 0%, #64BA19 100%);
+    background-image: -o-linear-gradient(90deg, #64BA19 0%, #125102 100%);
+    background-image: -webkit-linear-gradient(90deg, #64BA19 0%, #125102 100%);
+    background-image: linear-gradient(90deg, #64BA19 0%, #125102 100%);    
+    
+}
+
+
+
+#aForgotPassword
+{
+/*    width: 75px; */
+    color: #555;
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    padding-top: 5px;
+    text-align: left;
+    margin-right:21px;
+}
+
+#lblErrMsgSignin
+{
+    position: relative;
+    left: -125px;
+    top: 5px;
+}
+
+
+/* Register/Sign-in hrefs */
+#cntSigninHref
+{
+    clear: right;
+    float: right;
+    margin-right: 30px;
+    
+    position:  relative;
+    top: 15px;
+}
+

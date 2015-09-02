@@ -1,0 +1,143 @@
+#mask 
+{
+	display: none;
+	background: #ccc; 
+	position: fixed; left: 0; top: 0; 
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+#cntEnterQuotePopup,
+#cntEnterOtherPopup
+{
+	display:none;
+    width: 313px;
+	background: #fefefe;
+	padding: 10px; 	
+	border: 2px solid #aaa;
+	float: left;
+	font-size: 1.2em;
+    text-align: left;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #999;
+    
+	-moz-box-shadow         : 0px 0px 20px #999; /* Firefox */
+    -webkit-box-shadow      : 0px 0px 20px #999; /* Safari, Chrome */
+    
+	border-radius           : 3px 3px 3px 3px;
+    -moz-border-radius      : 3px; /* Firefox */
+    -webkit-border-radius   : 3px; /* Safari, Chrome */
+}
+
+#cntEnterQuotePopup
+{
+    width: 325px;
+}
+
+img.btnClose 
+{
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+
+fieldset 
+{ 
+	border:none; 
+}
+
+form.enterQuote .textbox .lblArea { width: 113px; }
+form.enterOther .textbox .lblArea { width: 100px; }
+
+
+form.enterQuote .textbox label,
+form.enterOther .textbox label 
+{ 
+	display:block; 
+	padding-bottom:7px; 
+    font-size: 14px;   
+    color: #555;
+    text-align: left;
+}
+
+
+form.enterQuote .textbox span,
+form.enterOther .textbox span 
+{ 
+    font-family: Arial;
+	display:block;
+    line-height: 16px;
+    font-size: 16px;
+    width: 200px;
+}
+
+form.enterOther span 
+{ 
+	color:#000; 
+    font-weight: bold;
+	font-size:16px; 
+	line-height:28px;
+} 
+
+form.enterQuote .textbox input,
+form.enterOther .textbox input 
+{ 
+    /*
+	border-bottom   : 1px solid #333;
+	border-left     : 1px solid #000;
+	border-right    : 1px solid #333;
+	border-top      : 1px solid #000;
+        */
+	background      : #dddddd; 
+	color           : #000000; 
+	/*border-radius: 3px 3px 3px 3px; */
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	font:13px Arial, Helvetica, sans-serif;
+	padding:3px 3px 3px;
+    margin-top: 3px;
+	width:200px;
+}
+
+form.enterQuote input:-moz-placeholder,
+form.enterOther input:-moz-placeholder 
+{ 
+    color:#bbb; text-shadow:0 0 2px #000; 
+}
+
+form.enterQuote input::-webkit-input-placeholder, 
+form.enterOther input::-webkit-input-placeholder 
+{ 
+    color:#bbb; text-shadow:0 0 2px #000;     
+}
+
+.button 
+{ 
+	background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+	background:  -o-linear-gradient(top, #f3f3f3, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');   
+    
+	border-color:#000; 
+	border-width:1px;
+	border-radius:4px 4px 4px 4px;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+	color:#333;
+	cursor:pointer;
+	display:inline-block;
+	padding:6px 6px 4px;
+    
+	margin-top:5px;
+	margin-right:4px;
+    
+	font:12px; 
+	width:100px;
+    float: right;
+}
+
+.button:hover { background:#ddd; }
+

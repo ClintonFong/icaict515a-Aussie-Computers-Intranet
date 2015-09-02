@@ -1,0 +1,95 @@
+@import url('orderForms.css');
+
+
+#tblPendingOrders tbody tr                 { color: #4285F4; }
+#tblPendingOrders tbody tr th:nth-child(1) { width: 50%; text-align: left;  }
+#tblPendingOrders tbody tr th:nth-child(2) { width: 15%; text-align: left;  }
+#tblPendingOrders tbody tr th:nth-child(3) { width: 20%; text-align: left;  }
+#tblPendingOrders tbody tr th:nth-child(4) { width: 15%; text-align: right; }
+
+#tblPendingOrders tbody tr td:nth-child(4) { text-align: right; }
+#tblPendingOrders tbody tr.order:hover
+{
+    background-color: #E7C89A; /*#6AACF4;*/
+    color: #125102;
+}
+
+#tblPendingOrders tbody tr td.revision
+{
+    display: none;
+}
+
+
+div#cntOrderForm
+{
+    height: 620px;
+}
+
+#cntManagersNote.wrapperOrderFormField textarea
+{
+    width: 520px;
+}
+
+/* buttons */
+#btnApprove
+{
+    color: #ffe107;
+    background-image: -moz-linear-gradient(0deg, #4A9613  0%, #64BA19 100%);
+    background-image: -o-linear-gradient(0deg, #4A9613  0%, #64BA19 100%);
+    background-image: -webkit-linear-gradient(0deg, #4A9613  0%, #64BA19 100%);
+    background-image: linear-gradient(0deg, #4A9613 0%, #64BA19 100%);    
+    
+    right: 10px;
+}
+
+#btnReject
+{
+    color:  #ffe107;
+    background-image: -moz-linear-gradient(0deg, #af0000  0%, #f60000 100%);
+    background-image: -o-linear-gradient(0deg, #af0000  0%, #f60000 100%);
+    background-image: -webkit-linear-gradient(0deg, #af0000  0%, #f60000 100%);
+    background-image: linear-gradient(0deg, #af0000 0%, #f60000 100%);    
+
+    right: 180px;
+
+}
+
+
+/* fieldset */
+
+#legendTheOrder
+{
+    color: #FF9000; 
+    border:  1px solid green;
+}
+
+
+#fldsetTheOrder,
+#fldsetAuthorize
+{
+    clear: right;
+    height: 360px;
+    width: 100%px;
+    padding:  0.2em 0.5em;
+    border:  1px solid green;
+    margin: 10px 20px 15px 20px; 
+}
+
+
+#legendAuthorize
+{
+    border:  1px solid green;
+    
+    background-image: -moz-linear-gradient(90deg, #CD0000 0%, #FFE000 100%);
+    background-image: -o-linear-gradient(90deg, #CD0000 0%, #FFE000 100%);
+    background-image: -webkit-linear-gradient(90deg, #CD0000 0%, #FFE000 100%);
+    background-image: linear-gradient(90deg, #FFE000 0%, #ff6a00 100%);    
+}
+
+#fldsetAuthorize
+{
+    height: 160px;  
+    background-color: #DDEBF9; 
+    position: relative; /* for alignment of approve & reject buttons */
+}
+

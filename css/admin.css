@@ -1,0 +1,148 @@
+/* general */
+span
+{
+    color: #eee; /*#E7C89A; */
+}
+
+/* legend and fieldset */
+
+legend
+{
+    color: #BF1E23;
+    border:  1px solid #FFf080;
+    
+    
+}
+
+legend#legendUsers
+{
+
+    background-image: -moz-linear-gradient(90deg, #FFEEEE 0%, #FFE20D  100%);
+    background-image: -o-linear-gradient(90deg, #FFEEEE 0%, #FFE20D 100%);
+    background-image: -webkit-linear-gradient(90deg, #FFEEEE 0%, #FFE20D 100%);
+    background-image: linear-gradient(90deg, #FFEEEE 0%, #FFE20D 100%);          
+}
+
+legend#legendDepartments
+{
+
+    background-image: -moz-linear-gradient(90deg, #FFEEEE 0%, #DC4300  100%);
+    background-image: -o-linear-gradient(90deg, #FFEEEE 0%, #DC4300 100%);
+    background-image: -webkit-linear-gradient(90deg, #FFEEEE 0%, #DC4300 100%);
+    background-image: linear-gradient(90deg, #FFEEEE 0%, #DC4300 100%);          
+}
+
+
+fieldset
+{
+    float: left;  
+    height: 410px;
+    width: 95%;
+    padding:  0.2em 0.5em;
+    border:  1px solid #FFf080;
+    margin: 10px 20px 15px 10px; 
+    text-align: left;
+}
+
+/* section menu */
+ul#sectionMenu li
+{
+    display: inline-block;
+}
+
+ul#sectionMenu li a
+{
+    color: #bbb;
+}
+
+/* table */
+
+table
+{
+    width: 100%;
+    background-color: #ddf0cc;
+}
+
+tbody th,
+tbody td
+{
+    padding: 3px 5px 3px 5px;
+}
+
+tbody th
+{
+    background-color: #38830D;
+    color: #ffffff;
+}
+
+tbody tr:hover
+{
+    background-color: #E7C89A; /*#6AACF4;*/
+    color: #125102;
+}
+
+/* Departments */
+
+#tblDepartments tbody tr th:nth-child(1) { width: 10%; }
+#tblDepartments tbody tr th:nth-child(2) { width: 35%; }
+#tblDepartments tbody tr th:nth-child(3) { width: 35%; }
+#tblDepartments tbody tr th:nth-child(4) { width: 20%; }
+#tblDepartments tbody tr td:nth-child(4)
+ {
+    text-align: right; 
+}
+
+
+/* Users */
+#tblUsers tbody tr th:nth-child(1) { width: 8%; }
+#tblUsers tbody tr th:nth-child(2) { width: 30%; }
+#tblUsers tbody tr th:nth-child(3) { width: 18%; }
+#tblUsers tbody tr th:nth-child(4) { width: 45%; }
+
+#registerNewDepartment,
+#registerNewUser
+{
+    
+    /* from JS Fiddle */    
+    color: #125102;
+    padding: 4px 8px 5px;
+    border: 0px solid #922529; 
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #64BA19;  /* #008fcf; */
+    box-shadow:
+        0 1px 0 rgba(0,0,0,.08),
+        inset 0 1px 2px rgba(255,255,255,.67),
+        inset 0 -1px 0 rgba(0,0,0,.14);
+    
+}
+
+#registerNewDepartment
+{
+    background-image: -moz-linear-gradient(0deg, #DC4300 0%, #FFEEEE 100%);
+    background-image: -o-linear-gradient(0deg, #DC4300 0%, #FFEEEE  100%);
+    background-image: -webkit-linear-gradient(0deg, #DC4300 0%, #FFEEEE  100%);
+    background-image: linear-gradient(0deg, #DC4300 0%, #FFEEEE 100%);          
+}
+
+#registerNewUser
+{
+    background-image: -moz-linear-gradient(0deg, #FFE20D 0%, #FFEEEE 100%);
+    background-image: -o-linear-gradient(0deg, #FFE20D 0%, #FFEEEE 100%);
+    background-image: -webkit-linear-gradient(0deg, #FFE20D 0%, #FFEEEE 100%);
+    background-image: linear-gradient(0deg, #FFE20D 0%, #FFEEEE 100%);          
+}
+
+
+#registerNewDepartment:hover,
+#registerNewUser:hover
+{
+    cursor: pointer;
+}

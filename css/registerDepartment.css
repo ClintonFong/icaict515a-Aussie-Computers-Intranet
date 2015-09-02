@@ -1,0 +1,155 @@
+
+#main-panel
+{
+    margin: 0;
+    padding: 20px;
+    border: 0px; 
+    height: 470px;
+}
+
+legend
+{
+    color: #ff0000; /* #BF1E23; */;
+    border:  1px solid #FFf080;
+    
+    background-image: -moz-linear-gradient(90deg, #CD0000 0%, #FFE000 100%);
+    background-image: -o-linear-gradient(90deg, #CD0000 0%, #FFE000 100%);
+    background-image: -webkit-linear-gradient(90deg, #CD0000 0%, #FFE000 100%);
+    background-image: linear-gradient(90deg, #FFE000 0%, #DC4300 100%);          
+    
+}
+
+#fldsetDeptRegister
+{
+    float: left;  
+    height: 210px;
+    width: 430px;
+    padding:  0.2em 0.5em;
+    border:  1px solid #FFf080;
+    margin: 10px 20px 15px 10px; 
+    text-align: right;
+    
+    background-color: rgb(0, 0, 0);                 /* Fallback for web browsers that don't support RGBa */
+    background-color: rgba(0, 0, 0, 0.2);           /* RGBa with 0.6 opacity */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);              /* For IE 5.5 - 7*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";       /* For IE 8*/      
+}
+
+
+div#cntDeptRegisterDetails
+{
+    padding-top: 10px;
+}
+
+label
+{
+    font-size: 14px;
+    line-height: 28px;
+    color: #E7DA08;
+}
+
+select,
+input
+{
+    width: 250px;
+    height: 22px;
+    padding-left: 2px;
+}
+
+select
+{
+    width: 253px;
+}
+
+input#deptBudget
+{
+    /* text-align: right; */
+}
+
+#btnCancel,
+#btnDeptRegister
+{ 
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 29px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    position: relative;
+    left: -50px; /* -153px; */
+    top: 15px;
+    
+    /* background-image: url('../images/btn_register.gif'); */
+ 
+    /* from JS Fiddle */    
+    color: #125102;
+    padding: 4px 8px 5px;
+    border: 0px solid #922529; 
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #ED8F00;  /* #008fcf; */
+    box-shadow:
+        0 1px 0 rgba(0,0,0,.08),
+        inset 0 1px 2px rgba(255,255,255,.67),
+        inset 0 -1px 0 rgba(0,0,0,.14);
+     
+}
+
+#btnCancel
+{
+    background-image: -moz-linear-gradient(0deg, #aea0a0 0%, #ffe0e0 100%);
+    background-image: -o-linear-gradient(0deg, #aea0a0 0%, #ffe0e0 100%);
+    background-image: -webkit-linear-gradient(0deg, #aea0a0 0%, #ffe0e0100%);
+    background-image: linear-gradient(0deg, #aea0a0 0%, #ffe0e0 100%);          
+}
+
+#btnDeptRegister
+{
+    background-image: -moz-linear-gradient(0deg, #CD0000 0%, #FFE000 100%);
+    background-image: -o-linear-gradient(0deg, #CD0000 0%, #FFE000 100%);
+    background-image: -webkit-linear-gradient(0deg, #CD0000 0%, #FFE000 100%);
+    background-image: linear-gradient(0deg, #CD0000 0%, #FFE000 100%);          
+}
+
+.disabled
+{
+    color: #000;
+    background-color: #ddd;
+    position: relative;
+    left: 1px;
+}
+
+#ajaxUpdateDeptMessageResponse,
+{
+    margin-top: 8px;
+    color:  #BF1E23;
+    font-size: 14px;
+}
+
+#cntImage
+{
+    float: right;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+#cntImage1
+{
+    float: right;
+    padding-right: 30px;
+}
+
+#cntImage2
+{
+    clear: both;
+    float: right;
+    padding-right: 150px;
+}
